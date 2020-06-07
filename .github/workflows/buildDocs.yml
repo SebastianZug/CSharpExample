@@ -23,3 +23,7 @@ jobs:
         doxyfile-path: .
         # Working directory
         working-directory: # default is .
+    - name: Check Folder
+      run: |
+           cd docs
+           ls -all
