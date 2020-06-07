@@ -1,4 +1,4 @@
-name: buildDocumentation
+name: Doxygen 
 
 on:
   push:
@@ -20,6 +20,6 @@ jobs:
       uses: mattnotmitt/doxygen-action@v1.1.0
       with:
         # Path to Doxyfile
-        doxyfile-path: ./Doxyfile
+        doxyfile-path: .
         # Working directory
         working-directory: # default is .
