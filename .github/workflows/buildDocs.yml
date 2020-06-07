@@ -2,9 +2,9 @@ name: Doxygen
 
 on:
   push:
-    branches: [ doxygen ]
+    branches: [ master ]
   pull_request:
-    branches: [ doxygen ]
+    branches: [ master ]
 
 jobs:
   build:
@@ -13,22 +13,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Check Folder
-      run: |
-           ls -all
     - name: Doxygen Action
       uses: mattnotmitt/doxygen-action@v1.1.0
       with:
-        # Path to Doxyfile
-        doxyfile-path: "./Doxyfile" # default is ./Doxyfile
-        # Working directory
-        working-directory: "." # default is .
+        doxyfile-path: "./Doxyfile" 
+        working-directory: "."
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./docs
-    - name: Check Folder
-      run: |
-           cd docs
-           ls -all
