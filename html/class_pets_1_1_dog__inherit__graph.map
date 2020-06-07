@@ -1,0 +1,4 @@
+<map id="Pets.Dog" name="Pets.Dog">
+<area shape="rect" id="node1" title="Die Klasse implementiert Objekte vom Typ Hund auf der Basis der Pets Klasse. Er Bellt den Besitzer an" alt="" coords="5,80,80,107"/>
+<area shape="rect" id="node2" href="$class_pets_1_1_pet.html" title=" " alt="" coords="21,5,64,32"/>
+</map>
