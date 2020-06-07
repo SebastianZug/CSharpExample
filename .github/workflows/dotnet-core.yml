@@ -1,4 +1,4 @@
-name: .NET Core
+name: .NET Build App
 
 on:
   push:
@@ -18,7 +18,9 @@ jobs:
       with:
         dotnet-version: 3.1.101
     - name: Install dependencies
-      run: dotnet restore
+      run: |
+        cd src/App
+        dotnet restore
     - name: Build
       run: |
         cd src/App
