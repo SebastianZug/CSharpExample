@@ -22,7 +22,7 @@ jobs:
         # Path to Doxyfile
         doxyfile-path: ./
         # Working directory
-        working-directory: ./
+        working-directory: ./src
     - name: Check Folder
       run: |
            cd docs
