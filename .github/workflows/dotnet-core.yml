@@ -2,9 +2,9 @@ name: .NET Build App
 
 on:
   push:
-    branches: [ actionBuild ]
+    branches: [ master ]
   pull_request:
-    branches: [ actionBuild ]
+    branches: [ master ]
 
 jobs:
   build:
