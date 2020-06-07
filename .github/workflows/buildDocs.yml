@@ -20,9 +20,9 @@ jobs:
       uses: mattnotmitt/doxygen-action@v1.1.0
       with:
         # Path to Doxyfile
-        doxyfile-path: .
+        doxyfile-path: ./
         # Working directory
-        working-directory: # default is .
+        working-directory: ./
     - name: Check Folder
       run: |
            cd docs
