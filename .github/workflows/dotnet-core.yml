@@ -1,0 +1,26 @@
+name: .NET Core
+
+on:
+  push:
+    branches: [ doxygen ]
+  pull_request:
+    branches: [ doxygen ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.101
+    - name: Doxygen Action
+      uses: mattnotmitt/doxygen-action@v1.1.0
+      with:
+        # Path to Doxyfile
+        doxyfile-path: # default is ./Doxyfile
+        # Working directory
+        working-directory: # default is .
