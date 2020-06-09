@@ -20,6 +20,6 @@ namespace Pets {
     /// <returns>
     /// string Katzengeräusch
     /// </returns>
-    public override string TalkToOwner () => "Meow!";
+    public override string TalkToOwner () => this.PetName + " makes Meow!";
   }
 }
