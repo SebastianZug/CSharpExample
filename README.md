@@ -1,6 +1,6 @@
 # CSharpExample
 
-Das Beispiel illustriert die Integration von CI Aspekten mittels GitHub Actions 
+Das Beispiel illustriert die Integration von CI Aspekten in ein C# Projekte mittels GitHub Actions 
 
 | Funktion                     | Action | 
 |:-----------------------------|:-------|
