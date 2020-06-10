@@ -2,7 +2,7 @@ name: .NET Test Animals
 
 on:
   push:
-    branches: [ UnitTests ]
+    branches: [ master ]
 
 jobs:
   build:
