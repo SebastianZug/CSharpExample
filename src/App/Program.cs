@@ -15,7 +15,7 @@ namespace ConsoleApplication {
 
             Willy.SearchForCat(Kitty);
             Willy.LocalizedInRoom = Rooms.Kitchen;
-            Willy.SearchForCat(Kitty);
+            Willy.SearchForCat(Kitty)
         }
     }
 }
