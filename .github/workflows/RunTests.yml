@@ -17,5 +17,5 @@ jobs:
         dotnet-version: 3.1.101
     - name: Run Tests
       run: |
-        cd src/Tests
+        cd tests
         dotnet test
