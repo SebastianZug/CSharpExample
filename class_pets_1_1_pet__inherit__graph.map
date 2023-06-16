@@ -1,5 +1,7 @@
 <map id="Pets.Pet" name="Pets.Pet">
-<area shape="rect" id="node1" title=" " alt="" coords="53,5,125,32"/>
-<area shape="rect" id="node2" href="$class_pets_1_1_cat.html" title="Diese Klasse implementiert Objekte vom Typ Katze auf der Basis der Pets Klasse." alt="" coords="5,80,77,107"/>
-<area shape="rect" id="node3" href="$class_pets_1_1_dog.html" title="Die Klasse implementiert Objekte vom Typ Hund auf der Basis der Pets Klasse. Er Bellt den Besitzer an" alt="" coords="101,80,176,107"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="53,5,125,31"/>
+<area shape="rect" id="Node000002" href="$class_pets_1_1_cat.html" title="Diese Klasse implementiert Objekte vom Typ Katze auf der Basis der Pets Klasse." alt="" coords="5,79,77,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="75,45,51,80,47,77,71,42"/>
+<area shape="rect" id="Node000003" href="$class_pets_1_1_dog.html" title="Die Klasse implementiert Objekte vom Typ Hund auf der Basis der Pets Klasse. Er Bellt den Besitzer an..." alt="" coords="101,79,176,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="108,42,132,77,128,80,103,45"/>
 </map>

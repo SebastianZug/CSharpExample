@@ -1,5 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$class_pets_1_1_pet.html" title=" " alt="" coords="5,31,77,57"/>
-<area shape="rect" id="node2" href="$class_pets_1_1_cat.html" title="Diese Klasse implementiert Objekte vom Typ Katze auf der Basis der Pets Klasse." alt="" coords="127,5,199,32"/>
-<area shape="rect" id="node3" href="$class_pets_1_1_dog.html" title="Die Klasse implementiert Objekte vom Typ Hund auf der Basis der Pets Klasse. Er Bellt den Besitzer an" alt="" coords="125,56,200,83"/>
+<area shape="rect" id="Node000000" href="$class_pets_1_1_pet.html" title=" " alt="" coords="5,31,77,56"/>
+<area shape="rect" id="Node000001" href="$class_pets_1_1_cat.html" title="Diese Klasse implementiert Objekte vom Typ Katze auf der Basis der Pets Klasse." alt="" coords="126,5,198,31"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="91,30,125,23,126,28,92,36"/>
+<area shape="rect" id="Node000002" href="$class_pets_1_1_dog.html" title="Die Klasse implementiert Objekte vom Typ Hund auf der Basis der Pets Klasse. Er Bellt den Besitzer an..." alt="" coords="125,55,199,80"/>
+<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="92,51,125,58,124,63,91,56"/>
 </map>
