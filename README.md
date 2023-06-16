@@ -6,7 +6,7 @@ Das Beispiel illustriert die Integration von CI Aspekten in ein C# Projekte mitt
 |:-----------------------------|:-------|
 | Kompilieren des Quellcodes   | [buildApp.yml](https://github.com/SebastianZug/CSharpExample/blob/master/.github/workflows/buildApp.yml)       |
 | Generieren der Dokumentation | [buildDocs.yml](https://github.com/SebastianZug/CSharpExample/blob/master/.github/workflows/buildDocs.yml)       |
-| Realisieren der Unit-Tests   |        |
+| Realisieren der Unit-Tests   | [RunTests.yml](https://github.com/SebastianZug/CSharpExample/blob/master/.github/workflows/RunTests.yml)       |
 
 Die Dokumentation aus Action 2 kann unter [Link](https://sebastianzug.github.io/CSharpExample/) eingesehen werden.
  
