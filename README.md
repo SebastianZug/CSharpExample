@@ -1,5 +1,7 @@
 # CSharpExample
 
+[![.NET Test Animals](https://github.com/SebastianZug/CSharpExample/actions/workflows/RunTests.yml/badge.svg)](https://github.com/SebastianZug/CSharpExample/actions/workflows/RunTests.yml)
+
 Das Beispiel illustriert die Integration von CI Aspekten in ein C# Projekte mittels GitHub Actions 
 
 | Funktion                     | Action | 
