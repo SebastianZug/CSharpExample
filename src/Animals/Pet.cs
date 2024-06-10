@@ -19,7 +19,6 @@ namespace Pets {
     }   
 
     public abstract string TalkToOwner ();
-
     /// <summary>
     /// Das Tier schläft für einige Stunden und sollte nicht gestört werden.
     /// </summary>
