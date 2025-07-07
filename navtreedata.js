@@ -25,7 +25,7 @@
 var NAVTREE =
 [
   [ "Animal Implementation", "index.html", [
-    [ "CSharpExample", "index.html", null ],
+    [ "CSharpExample 2025", "index.html", null ],
     [ "Packages", "namespaces.html", [
       [ "Package List", "namespaces.html", "namespaces_dup" ],
       [ "Package Members", "namespacemembers.html", [
@@ -54,5 +54,5 @@ var NAVTREEINDEX =
 "_cat_8cs.html"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
+var SYNCONMSG = 'click to disable panel synchronization';
+var SYNCOFFMSG = 'click to enable panel synchronization';
