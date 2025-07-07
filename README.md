@@ -1,4 +1,4 @@
-# CSharpExample
+# CSharpExample 2025
 
 [![.NET Test Animals](https://github.com/SebastianZug/CSharpExample/actions/workflows/RunTests.yml/badge.svg)](https://github.com/SebastianZug/CSharpExample/actions/workflows/RunTests.yml)
 
